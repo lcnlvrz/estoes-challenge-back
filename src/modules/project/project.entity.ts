@@ -26,9 +26,6 @@ export class ProjectEntity {
   @Column()
   status: string;
 
-  @CreateDateColumn()
-  createdAt: Date;
-
-  @UpdateDateColumn()
-  updatedAt: Date;
+  @Column()
+  createdAt: string;
 }
